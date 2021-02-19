@@ -1,0 +1,6 @@
+{
+  "baseURL": "https://group2-appointment-app.herokuapp.com/api/v1",
+  "jwtSecretKey": "joanitah",
+  "databaseURI": "mongodb+srv://sharifismailk:easports@appointment.u5r8l.mongodb.net/appointment?retryWrites=true&w=majority",
+  "geocodingMapquestApiKey": "sMPAwV1xPZhukIelOU0S6K4j0AjIRo1M"
+}

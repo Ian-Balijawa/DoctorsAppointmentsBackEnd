@@ -1,0 +1,88 @@
+### appointment
+appointment_id
+doctor_schema
+user_schema
+reason
+datetime
+review
+prescription
+medication
+consultation_fee
+total_fee
+emergency
+emergency_fee
+requested_datetime
+agreed_datetime
+=== create appointment
+=== get a doctor appointments
+=== get a user appointments
+=== get review for this appointment
+
+
+
+### invoice
+invoice_id
+doctorschema
+userschema
+details
+amount
+status
+datetime
+=== create or send an invoice from doctor to user
+
+
+
+### doctor / specialist
+doctor_id
+username
+title
+about
+email
+phone_number
+address
+location
+password
+image
+experience
+expertise
+rating
+reviews
+=== get all reviews for doctor / specialist
+=== register doctor / specialist
+=== login doctor / specialist
+=== delete doctor account
+=== edit doctor profile
+=== upload doctor profile image
+=== update profile image
+=== remove profile image
+=== get all doctor appointments
+=== get all doctor appointments with a user
+
+
+
+
+### review
+user_id
+username
+review
+datetime
+
+
+
+### user
+user_id
+firstname
+lastname
+password
+email
+image
+phone_number
+age
+
+
+### payment
+id
+invoice_id
+invoice_schema
+datetime
+amount

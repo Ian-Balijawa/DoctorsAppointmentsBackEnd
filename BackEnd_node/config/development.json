@@ -1,0 +1,6 @@
+{
+  "baseURL": "http://localhost:9000/api/v1",
+  "jwtSecretKey": "joanitah",
+  "databaseURI": "mongodb://localhost:27017/appointment",
+  "geocodingMapquestApiKey": "sMPAwV1xPZhukIelOU0S6K4j0AjIRo1M"
+}

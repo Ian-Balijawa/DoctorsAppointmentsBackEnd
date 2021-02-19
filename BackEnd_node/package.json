@@ -1,0 +1,36 @@
+{
+  "name": "appointment",
+  "version": "1.0.0",
+  "description": "appointment backend for mobile app meeting with specialist you need",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "12.19.0",
+    "npm": "6.14.8"
+  },
+  "keywords": [
+    "appointment"
+  ],
+  "author": "sharif ismail k",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "compression": "^1.7.4",
+    "config": "^3.3.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-formidable": "^1.2.0",
+    "fawn": "^2.1.5",
+    "helmet": "^4.3.1",
+    "joi": "^17.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.11",
+    "mongoose-regex-search": "^0.8.30",
+    "morgan": "^1.10.0",
+    "mtn-momo": "^1.0.6",
+    "node-geocoder": "^3.27.0",
+    "winston": "^3.3.3"
+  }
+}
